@@ -12,7 +12,7 @@ export const MenuListItem = props => {
       } ${props.currentDifficulty === props.difficulty ? style.selected : ''}`}
       onClick={() => props.handleDifficultyChange(props.difficulty)}
     >
-      Set to: {props.difficulty}{' '}
+      Set to: {props.difficulty}
     </div>
   )
 }
