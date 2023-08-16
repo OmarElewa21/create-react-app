@@ -1,0 +1,19 @@
+.container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hovered {
+    background-color: rgb(211, 233, 245);
+}
+
+.notHovered {
+    background-color: rgb(246, 250, 252);
+}
+
+.selected {
+    background-color: rgb(211, 233, 245);
+}
