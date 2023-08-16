@@ -1,4 +1,4 @@
-import style from './style.module.css'
+import style from './DisplayDifficulty.module.css'
 
 export function DisplayDifficulty (props) {
   return (
